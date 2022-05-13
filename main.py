@@ -52,15 +52,6 @@ class MainWindow(QtWidgets.QMainWindow):
 
         self.show()
 
-        """fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
-        surf = ax.plot_wireframe(x, y, z, linewidth=1, antialiased=False)
-        fig.colorbar(surf, shrink=0.5, aspect=5)
-        plt.show()"""
-        """self.timer = QtCore.QTimer()
-        self.timer.setInterval(100)
-        self.timer.timeout.connect(self.update_plot)
-        self.timer.start()"""
-
     def update_plot(self):
         # on laisse la première valeur du tableau afin de garder une fenetre de taille 50
         # on append une nouvelle valeur aléatoire
